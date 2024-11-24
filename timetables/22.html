@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Jalapa-El Porvenir | Ministerio de Transporte e Infraestructura</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, width=device-width">
+  <script src="https://unpkg.com/jquery@3.7.1/dist/jquery.min.js" crossorigin="anonymous"></script>
+  <link href="https://unpkg.com/maplibre-gl@^4.7.1/dist/maplibre-gl.css" rel="stylesheet">
+  <script src="https://unpkg.com/maplibre-gl@^4.7.1/dist/maplibre-gl.js"></script>
+  <script src="../js/timetable-map.js"></script>
+  <link rel="stylesheet" href="../css/timetable_styles.css">
+</head>
+
+<body><!-- Timetable generated on 2024-11-17T17:31:55.498Z using GTFS-to-HTML version 2.10.3 -->
+  <div class="timetable-page menu-type-simple">
+    <h1>
+      <div class="route-color-swatch-large" style="background-color: #33FF99; color: #FFFFFF;">220</div>
+      <div>Jalapa-El Porvenir</div>
+    </h1>
+    <div class="effective-date">Effective Febrero 27, 2024</div>
+    <ul class="timetable-simple-menu">
+      <li><a href="#timetable_id_43"><span>Jalapa-El Porvenir</span></a></li>
+      <li><a href="#timetable_id_44"><span>El Porvenir-Jalapa</span></a></li>
+    </ul>
+    <div class="timetable" id="timetable_id_43" data-day-list="Lun-Vie" data-direction-name="Jalapa-El Porvenir" data-timetable-id="43" data-direction-id="0" data-route-id="22">
+      <div class="timetable-label">
+        <h2>Jalapa-El Porvenir | Lunes-Viernes</h2>
+      </div>
+      <div class="map-container">
+        <div class="map" id="map_timetable_id_43"></div>
+        <div class="map-legend">
+          <div class="legend-item">
+            <div class="legend-icon">
+              <div class="stop-marker"></div>
+            </div>
+            <div class="legend-text"> <b>Paradas</b></div>
+          </div>
+          <div class="legend-item vehicle-legend-item" style="display: none;">
+            <div class="legend-icon">
+              <div class="vehicle-marker">
+                <div class="vehicle-marker-arrow"></div>
+              </div>
+            </div>
+            <div class="legend-text"><b>Current Vehicle Locations</b><br />
+              <small>Hover or tap to see arrival times.</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="table-container">
+        <table class="table-vertical" summary="This table shows schedules for a selection of key stops on the route for Jalapa-El Porvenir Lun-Vie.  Stops and their schedule times are listed in the columns." data-orientation="vertical">
+          <caption class="sr-only">Jalapa-El Porvenir | Lun-Vie</caption>
+          <colgroup>
+            <col class="stop-0" id="stop_id_4001" data-stop-id="4001" data-is-timepoint="true">
+            <col class="stop-1" id="stop_id_2201" data-stop-id="2201" data-is-timepoint="true">
+            <col class="stop-2" id="stop_id_2203" data-stop-id="2203" data-is-timepoint="true">
+          </colgroup>
+          <thead>
+            <tr>
+              <th class="stop-header" scope="col" width="33.33%">
+                <div class="stop-name">Jalapa</div>
+                <div class="stop-code">4001</div>
+              </th>
+              <th class="stop-header" scope="col" width="33.33%">
+                <div class="stop-name">La Limonera</div>
+                <div class="stop-code">2201</div>
+              </th>
+              <th class="stop-header" scope="col" width="33.33%">
+                <div class="stop-name">El Porvenir</div>
+                <div class="stop-code">2203</div>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="trip-row" id="trip_id_22_1411_00">
+              <td class="stop-time am timepoint"><span class="stop-time-text">05:00</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">05:05</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">06:00</span></td>
+            </tr>
+            <tr class="trip-row" id="trip_id_22_1513_00">
+              <td class="stop-time am timepoint"><span class="stop-time-text">06:00</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">06:05</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">07:00</span></td>
+            </tr>
+            <tr class="trip-row" id="trip_id_22_1155_00">
+              <td class="stop-time am timepoint"><span class="stop-time-text">07:00</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">07:05</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">08:00</span></td>
+            </tr>
+            <tr class="trip-row" id="trip_id_22_0905_00">
+              <td class="stop-time am timepoint"><span class="stop-time-text">08:00</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">08:05</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">09:00</span></td>
+            </tr>
+            <tr class="trip-row" id="trip_id_22_2039_01">
+              <td class="stop-time am timepoint"><span class="stop-time-text">09:00</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">09:05</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">10:00</span></td>
+            </tr>
+            <tr class="trip-row" id="trip_id_22_1513_02">
+              <td class="stop-time am timepoint"><span class="stop-time-text">10:00</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">10:05</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">11:00</span></td>
+            </tr>
+            <tr class="trip-row" id="trip_id_22_0819_00">
+              <td class="stop-time am timepoint"><span class="stop-time-text">11:00</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">11:05</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">12:00</span></td>
+            </tr>
+            <tr class="trip-row" id="trip_id_22_1411_02">
+              <td class="stop-time pm timepoint"><span class="stop-time-text">12:10</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">12:15</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">13:10</span></td>
+            </tr>
+            <tr class="trip-row" id="trip_id_22_1155_02">
+              <td class="stop-time pm timepoint"><span class="stop-time-text">13:20</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">13:25</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">14:20</span></td>
+            </tr>
+            <tr class="trip-row" id="trip_id_22_0905_02">
+              <td class="stop-time pm timepoint"><span class="stop-time-text">14:30</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">14:35</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">15:30</span></td>
+            </tr>
+            <tr class="trip-row" id="trip_id_22_0819_02">
+              <td class="stop-time pm timepoint"><span class="stop-time-text">15:40</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">15:45</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">16:40</span></td>
+            </tr>
+            <tr class="trip-row" id="trip_id_22_1513_05">
+              <td class="stop-time pm timepoint"><span class="stop-time-text">17:00</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">17:05</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">18:00</span></td>
+            </tr>
+            <tr class="trip-row" id="trip_id_22_1411_04">
+              <td class="stop-time pm timepoint"><span class="stop-time-text">18:10</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">18:15</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">19:10</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="timetable-footer"></div>
+    </div>
+    <div class="timetable" id="timetable_id_44" data-day-list="Lun-Vie" data-direction-name="El Porvenir-Jalapa" data-timetable-id="44" data-direction-id="1" data-route-id="22">
+      <div class="timetable-label">
+        <h2>El Porvenir-Jalapa | Lunes-Viernes</h2>
+      </div>
+      <div class="map-container">
+        <div class="map" id="map_timetable_id_44"></div>
+        <div class="map-legend">
+          <div class="legend-item">
+            <div class="legend-icon">
+              <div class="stop-marker"></div>
+            </div>
+            <div class="legend-text"> <b>Paradas</b></div>
+          </div>
+          <div class="legend-item vehicle-legend-item" style="display: none;">
+            <div class="legend-icon">
+              <div class="vehicle-marker">
+                <div class="vehicle-marker-arrow"></div>
+              </div>
+            </div>
+            <div class="legend-text"><b>Current Vehicle Locations</b><br />
+              <small>Hover or tap to see arrival times.</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="table-container">
+        <table class="table-vertical" summary="This table shows schedules for a selection of key stops on the route for El Porvenir-Jalapa Lun-Vie.  Stops and their schedule times are listed in the columns." data-orientation="vertical">
+          <caption class="sr-only">El Porvenir-Jalapa | Lun-Vie</caption>
+          <colgroup>
+            <col class="stop-0" id="stop_id_2203" data-stop-id="2203" data-is-timepoint="true">
+            <col class="stop-1" id="stop_id_2201" data-stop-id="2201" data-is-timepoint="true">
+            <col class="stop-2" id="stop_id_4001" data-stop-id="4001" data-is-timepoint="true">
+          </colgroup>
+          <thead>
+            <tr>
+              <th class="stop-header" scope="col" width="33.33%">
+                <div class="stop-name">El Porvenir</div>
+                <div class="stop-code">2203</div>
+              </th>
+              <th class="stop-header" scope="col" width="33.33%">
+                <div class="stop-name">La Limonera</div>
+                <div class="stop-code">2201</div>
+              </th>
+              <th class="stop-header" scope="col" width="33.33%">
+                <div class="stop-name">Jalapa</div>
+                <div class="stop-code">4001</div>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="trip-row" id="trip_id_22_1513_01">
+              <td class="stop-time am timepoint"><span class="stop-time-text">06:30</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">07:25</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">07:30</span></td>
+            </tr>
+            <tr class="trip-row" id="trip_id_22_2039_00">
+              <td class="stop-time am timepoint"><span class="stop-time-text">07:30</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">08:25</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">08:30</span></td>
+            </tr>
+            <tr class="trip-row" id="trip_id_22_1155_01">
+              <td class="stop-time am timepoint"><span class="stop-time-text">08:30</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">09:25</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">09:30</span></td>
+            </tr>
+            <tr class="trip-row" id="trip_id_22_0905_01">
+              <td class="stop-time am timepoint"><span class="stop-time-text">09:30</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">10:25</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">10:30</span></td>
+            </tr>
+            <tr class="trip-row" id="trip_id_22_1513_03">
+              <td class="stop-time am timepoint"><span class="stop-time-text">10:30</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">11:25</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">11:30</span></td>
+            </tr>
+            <tr class="trip-row" id="trip_id_22_0819_01">
+              <td class="stop-time am timepoint"><span class="stop-time-text">11:30</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">12:25</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">12:30</span></td>
+            </tr>
+            <tr class="trip-row" id="trip_id_22_1411_01">
+              <td class="stop-time pm timepoint"><span class="stop-time-text">12:30</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">13:25</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">13:30</span></td>
+            </tr>
+            <tr class="trip-row" id="trip_id_22_1513_04">
+              <td class="stop-time pm timepoint"><span class="stop-time-text">13:40</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">14:35</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">14:40</span></td>
+            </tr>
+            <tr class="trip-row" id="trip_id_22_1155_03">
+              <td class="stop-time pm timepoint"><span class="stop-time-text">14:50</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">15:45</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">15:50</span></td>
+            </tr>
+            <tr class="trip-row" id="trip_id_22_0905_03">
+              <td class="stop-time pm timepoint"><span class="stop-time-text">16:00</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">16:55</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">17:00</span></td>
+            </tr>
+            <tr class="trip-row" id="trip_id_22_0819_03">
+              <td class="stop-time pm timepoint"><span class="stop-time-text">17:10</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">18:05</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">18:10</span></td>
+            </tr>
+            <tr class="trip-row" id="trip_id_22_1513_06">
+              <td class="stop-time pm timepoint"><span class="stop-time-text">18:30</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">19:25</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">19:30</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="timetable-footer"></div>
+    </div>
+    <script>
+      const {
+        gtfsRealtimeUrls,
+        mapStyleUrl,
+        routeData,
+        stopData,
+        pageData: {
+          routeIds,
+          tripIds,
+          stopIds,
+          geojsons
+        }
+      } = {
+        "gtfsRealtimeUrls": {},
+        "mapStyleUrl": "https://tiles.openfreemap.org/styles/liberty",
+        "pageData": {
+          "routeIds": ["22"],
+          "tripIds": ["22_1411_00", "22_1513_00", "22_1155_00", "22_0905_00", "22_2039_01", "22_1513_02", "22_0819_00", "22_1411_02", "22_1155_02", "22_0905_02", "22_0819_02", "22_1513_05", "22_1411_04", "22_1513_01", "22_2039_00", "22_1155_01", "22_0905_01", "22_1513_03", "22_0819_01", "22_1411_01", "22_1513_04", "22_1155_03", "22_0905_03", "22_0819_03", "22_1513_06"],
+          "stopIds": ["2201", "2203", "4001"],
+          "geojsons": {
+            "43": {
+              "type": "FeatureCollection",
+              "features": [{
+                "type": "Feature",
+                "properties": {
+                  "route_color": "#33FF99"
+                },
+                "geometry": {
+                  "type": "MultiLineString",
+                  "coordinates": [
+                    [
+                      [-86.12299, 13.91508],
+                      [-86.12306, 13.91501],
+                      [-86.12267, 13.91547],
+                      [-86.12194, 13.91638],
+                      [-86.11901, 13.92006],
+                      [-86.1187, 13.92062],
+                      [-86.11836, 13.92159],
+                      [-86.1182, 13.9222],
+                      [-86.11817, 13.92251],
+                      [-86.11818, 13.92284],
+                      [-86.11821, 13.9231],
+                      [-86.11825, 13.92328],
+                      [-86.11836, 13.92364],
+                      [-86.11847, 13.92389],
+                      [-86.11951, 13.92598],
+                      [-86.11959, 13.92623],
+                      [-86.11966, 13.92656],
+                      [-86.11971, 13.9272],
+                      [-86.11995, 13.92933],
+                      [-86.11993, 13.9304],
+                      [-86.1199, 13.93078],
+                      [-86.11971, 13.93142],
+                      [-86.1196, 13.93165],
+                      [-86.11871, 13.93295],
+                      [-86.1179, 13.93409],
+                      [-86.11768, 13.93444],
+                      [-86.11758, 13.93464],
+                      [-86.11751, 13.93483],
+                      [-86.11726, 13.93573],
+                      [-86.11636, 13.93816],
+                      [-86.11619, 13.9389],
+                      [-86.11563, 13.94171],
+                      [-86.11552, 13.94218],
+                      [-86.11526, 13.94295],
+                      [-86.11482, 13.94438],
+                      [-86.11388, 13.94729],
+                      [-86.11367, 13.94779],
+                      [-86.11288, 13.949],
+                      [-86.11214, 13.95018],
+                      [-86.11171, 13.95102],
+                      [-86.11123, 13.95203],
+                      [-86.11075, 13.95279],
+                      [-86.10978, 13.95443],
+                      [-86.10954, 13.95474],
+                      [-86.10725, 13.95745],
+                      [-86.10706, 13.9577],
+                      [-86.10675, 13.95824],
+                      [-86.10645, 13.95892],
+                      [-86.1064, 13.95908],
+                      [-86.10623, 13.95948],
+                      [-86.10618, 13.95968],
+                      [-86.1062, 13.95993],
+                      [-86.10706, 13.96301],
+                      [-86.1071, 13.96329],
+                      [-86.10712, 13.96358],
+                      [-86.10712, 13.965],
+                      [-86.1071, 13.96535],
+                      [-86.10701, 13.9657],
+                      [-86.10657, 13.96691],
+                      [-86.10646, 13.96709],
+                      [-86.10631, 13.96726],
+                      [-86.10452, 13.96894],
+                      [-86.10424, 13.96926],
+                      [-86.10418, 13.96941],
+                      [-86.10406, 13.97056],
+                      [-86.10399, 13.97084],
+                      [-86.10359, 13.97205],
+                      [-86.10337, 13.97246],
+                      [-86.1029, 13.97344],
+                      [-86.10232, 13.97473],
+                      [-86.10204, 13.97541],
+                      [-86.10185, 13.97572],
+                      [-86.10148, 13.97603],
+                      [-86.10036, 13.97677],
+                      [-86.09993, 13.97708],
+                      [-86.09931, 13.97757],
+                      [-86.09736, 13.97922],
+                      [-86.0949, 13.98127],
+                      [-86.0945, 13.98164],
+                      [-86.09369, 13.98231],
+                      [-86.09315, 13.98274],
+                      [-86.09295, 13.98288],
+                      [-86.09203, 13.98364],
+                      [-86.09163, 13.98402],
+                      [-86.09132, 13.98442],
+                      [-86.09101, 13.98498],
+                      [-86.09076, 13.98557],
+                      [-86.09075, 13.98561],
+                      [-86.09076, 13.98571],
+                      [-86.09115, 13.98688],
+                      [-86.09116, 13.98707],
+                      [-86.09113, 13.98724],
+                      [-86.0911, 13.98731],
+                      [-86.09037, 13.98851],
+                      [-86.09031, 13.98866],
+                      [-86.0903, 13.98882],
+                      [-86.09035, 13.98898],
+                      [-86.0912, 13.99034],
+                      [-86.09133, 13.99072],
+                      [-86.09136, 13.99116],
+                      [-86.09138, 13.99316],
+                      [-86.09127, 13.99535],
+                      [-86.09123, 13.99582],
+                      [-86.09118, 13.99604],
+                      [-86.09057, 13.99735],
+                      [-86.09046, 13.99752],
+                      [-86.09037, 13.99761],
+                      [-86.09015, 13.99775],
+                      [-86.09002, 13.9978],
+                      [-86.08983, 13.99782],
+                      [-86.08845, 13.99806],
+                      [-86.08801, 13.99818],
+                      [-86.08668, 13.99867],
+                      [-86.08531, 13.99925],
+                      [-86.08496, 13.9995],
+                      [-86.08461, 13.99981],
+                      [-86.08288, 14.00142],
+                      [-86.08235, 14.00194],
+                      [-86.08194, 14.00242],
+                      [-86.0819, 14.00254],
+                      [-86.08187, 14.00271],
+                      [-86.08227, 14.0044],
+                      [-86.08226, 14.00471],
+                      [-86.08223, 14.00482],
+                      [-86.08211, 14.00503],
+                      [-86.08137, 14.00572],
+                      [-86.08078, 14.0063],
+                      [-86.07883, 14.00909],
+                      [-86.07856, 14.00955],
+                      [-86.07776, 14.01137],
+                      [-86.07669, 14.01393],
+                      [-86.07648, 14.01451],
+                      [-86.07625, 14.0159],
+                      [-86.07623, 14.0162],
+                      [-86.07623, 14.01662],
+                      [-86.07651, 14.01844],
+                      [-86.07652, 14.01872],
+                      [-86.0765, 14.01898],
+                      [-86.07643, 14.01937],
+                      [-86.07636, 14.01962],
+                      [-86.0763, 14.01979],
+                      [-86.07614, 14.02008],
+                      [-86.07499, 14.02172],
+                      [-86.07468, 14.02223],
+                      [-86.0745, 14.02256],
+                      [-86.0744, 14.02278],
+                      [-86.07429, 14.02307],
+                      [-86.07412, 14.02362],
+                      [-86.07354, 14.02614],
+                      [-86.07332, 14.02668],
+                      [-86.07255, 14.02888],
+                      [-86.07201, 14.03009],
+                      [-86.07177, 14.03068],
+                      [-86.07073, 14.03337],
+                      [-86.0703, 14.03427],
+                      [-86.06972, 14.03541],
+                      [-86.06917, 14.03631],
+                      [-86.06874, 14.03692],
+                      [-86.06762, 14.03832],
+                      [-86.06754, 14.0384],
+                      [-86.06745, 14.03845],
+                      [-86.06699, 14.0386],
+                      [-86.06661, 14.03875],
+                      [-86.06634, 14.03895],
+                      [-86.06615, 14.03915],
+                      [-86.06605, 14.03931],
+                      [-86.06595, 14.0395],
+                      [-86.06577, 14.04016],
+                      [-86.06545, 14.04171],
+                      [-86.06521, 14.04314],
+                      [-86.06506, 14.04384],
+                      [-86.0649, 14.04425],
+                      [-86.06452, 14.04502],
+                      [-86.06434, 14.04534],
+                      [-86.06384, 14.04612],
+                      [-86.06318, 14.04724],
+                      [-86.06261, 14.04813],
+                      [-86.06235, 14.04858],
+                      [-86.06185, 14.04935],
+                      [-86.06132, 14.05026],
+                      [-86.06096, 14.05083],
+                      [-86.06054, 14.05138],
+                      [-86.05954, 14.05229],
+                      [-86.05926, 14.05252],
+                      [-86.05893, 14.05275],
+                      [-86.05512, 14.05505],
+                      [-86.05421, 14.05557],
+                      [-86.05297, 14.05634],
+                      [-86.04787, 14.05939],
+                      [-86.04747, 14.05968],
+                      [-86.04733, 14.05979],
+                      [-86.04687, 14.06022],
+                      [-86.0464, 14.06074],
+                      [-86.04488, 14.0628],
+                      [-86.04435, 14.06348],
+                      [-86.04406, 14.06376],
+                      [-86.04377, 14.06401],
+                      [-86.04309, 14.06449],
+                      [-86.04057, 14.06639]
+                    ]
+                  ]
+                }
+              }, {
+                "type": "Feature",
+                "properties": {
+                  "route_ids": ["22"],
+                  "stop_id": "2201"
+                },
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [-86.1161, 13.9392]
+                }
+              }, {
+                "type": "Feature",
+                "properties": {
+                  "route_ids": ["22"],
+                  "stop_id": "2203"
+                },
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [-86.0402, 14.0667]
+                }
+              }, {
+                "type": "Feature",
+                "properties": {
+                  "route_ids": ["4", "6", "8", "9", "11", "16", "22", "23"],
+                  "stop_id": "4001"
+                },
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [-86.1234, 13.9153]
+                }
+              }]
+            },
+            "44": {
+              "type": "FeatureCollection",
+              "features": [{
+                "type": "Feature",
+                "properties": {
+                  "route_color": "#33FF99"
+                },
+                "geometry": {
+                  "type": "MultiLineString",
+                  "coordinates": [
+                    [
+                      [-86.04057, 14.06639],
+                      [-86.0402, 14.06666],
+                      [-86.04309, 14.06449],
+                      [-86.04377, 14.06401],
+                      [-86.04406, 14.06376],
+                      [-86.04435, 14.06348],
+                      [-86.04488, 14.0628],
+                      [-86.0464, 14.06074],
+                      [-86.04687, 14.06022],
+                      [-86.04733, 14.05979],
+                      [-86.04747, 14.05968],
+                      [-86.04787, 14.05939],
+                      [-86.05297, 14.05634],
+                      [-86.05421, 14.05557],
+                      [-86.05512, 14.05505],
+                      [-86.05893, 14.05275],
+                      [-86.05926, 14.05252],
+                      [-86.05954, 14.05229],
+                      [-86.06054, 14.05138],
+                      [-86.06096, 14.05083],
+                      [-86.06132, 14.05026],
+                      [-86.06185, 14.04935],
+                      [-86.06235, 14.04858],
+                      [-86.06261, 14.04813],
+                      [-86.06318, 14.04724],
+                      [-86.06384, 14.04612],
+                      [-86.06434, 14.04534],
+                      [-86.06452, 14.04502],
+                      [-86.0649, 14.04425],
+                      [-86.06506, 14.04384],
+                      [-86.06521, 14.04314],
+                      [-86.06545, 14.04171],
+                      [-86.06577, 14.04016],
+                      [-86.06595, 14.0395],
+                      [-86.06605, 14.03931],
+                      [-86.06621, 14.03908],
+                      [-86.06634, 14.03895],
+                      [-86.06661, 14.03875],
+                      [-86.06699, 14.0386],
+                      [-86.06745, 14.03845],
+                      [-86.06754, 14.0384],
+                      [-86.06762, 14.03832],
+                      [-86.06874, 14.03692],
+                      [-86.06917, 14.03631],
+                      [-86.06972, 14.03541],
+                      [-86.0703, 14.03427],
+                      [-86.07073, 14.03337],
+                      [-86.07177, 14.03068],
+                      [-86.07201, 14.03009],
+                      [-86.07255, 14.02888],
+                      [-86.07332, 14.02668],
+                      [-86.07354, 14.02614],
+                      [-86.07412, 14.02362],
+                      [-86.07429, 14.02307],
+                      [-86.0744, 14.02278],
+                      [-86.0745, 14.02256],
+                      [-86.07468, 14.02223],
+                      [-86.07499, 14.02172],
+                      [-86.07614, 14.02008],
+                      [-86.0763, 14.01979],
+                      [-86.07636, 14.01962],
+                      [-86.07643, 14.01937],
+                      [-86.0765, 14.01898],
+                      [-86.07652, 14.01872],
+                      [-86.07651, 14.01844],
+                      [-86.07623, 14.01662],
+                      [-86.07623, 14.0162],
+                      [-86.07625, 14.0159],
+                      [-86.07648, 14.01451],
+                      [-86.07669, 14.01393],
+                      [-86.07776, 14.01137],
+                      [-86.07856, 14.00955],
+                      [-86.07883, 14.00909],
+                      [-86.08078, 14.0063],
+                      [-86.08137, 14.00572],
+                      [-86.08211, 14.00503],
+                      [-86.08223, 14.00482],
+                      [-86.08226, 14.00471],
+                      [-86.08227, 14.0044],
+                      [-86.08187, 14.00271],
+                      [-86.0819, 14.00254],
+                      [-86.08194, 14.00242],
+                      [-86.08235, 14.00194],
+                      [-86.08288, 14.00142],
+                      [-86.08461, 13.99981],
+                      [-86.08496, 13.9995],
+                      [-86.08531, 13.99925],
+                      [-86.08668, 13.99867],
+                      [-86.08801, 13.99818],
+                      [-86.08845, 13.99806],
+                      [-86.08983, 13.99782],
+                      [-86.09002, 13.9978],
+                      [-86.09015, 13.99775],
+                      [-86.09037, 13.99761],
+                      [-86.09046, 13.99752],
+                      [-86.09057, 13.99735],
+                      [-86.09118, 13.99604],
+                      [-86.09123, 13.99582],
+                      [-86.09127, 13.99535],
+                      [-86.09138, 13.99316],
+                      [-86.09136, 13.99116],
+                      [-86.09133, 13.99072],
+                      [-86.0912, 13.99034],
+                      [-86.09035, 13.98898],
+                      [-86.0903, 13.98882],
+                      [-86.09031, 13.98866],
+                      [-86.09037, 13.98851],
+                      [-86.0911, 13.98731],
+                      [-86.09113, 13.98724],
+                      [-86.09116, 13.98707],
+                      [-86.09115, 13.98688],
+                      [-86.09076, 13.98571],
+                      [-86.09075, 13.98563],
+                      [-86.09076, 13.98557],
+                      [-86.09101, 13.98498],
+                      [-86.09132, 13.98442],
+                      [-86.09163, 13.98402],
+                      [-86.09203, 13.98364],
+                      [-86.09295, 13.98288],
+                      [-86.09315, 13.98274],
+                      [-86.09369, 13.98231],
+                      [-86.0945, 13.98164],
+                      [-86.0949, 13.98127],
+                      [-86.09736, 13.97922],
+                      [-86.09931, 13.97757],
+                      [-86.09993, 13.97708],
+                      [-86.10036, 13.97677],
+                      [-86.10148, 13.97603],
+                      [-86.10185, 13.97572],
+                      [-86.10204, 13.97541],
+                      [-86.10232, 13.97473],
+                      [-86.1029, 13.97344],
+                      [-86.10337, 13.97246],
+                      [-86.10359, 13.97205],
+                      [-86.10399, 13.97084],
+                      [-86.10406, 13.97056],
+                      [-86.10418, 13.96941],
+                      [-86.10424, 13.96926],
+                      [-86.10452, 13.96894],
+                      [-86.10631, 13.96726],
+                      [-86.10646, 13.96709],
+                      [-86.10657, 13.96691],
+                      [-86.10701, 13.9657],
+                      [-86.1071, 13.96535],
+                      [-86.10712, 13.965],
+                      [-86.10712, 13.96358],
+                      [-86.1071, 13.96329],
+                      [-86.10706, 13.96301],
+                      [-86.1062, 13.95993],
+                      [-86.10618, 13.95968],
+                      [-86.10623, 13.95948],
+                      [-86.1064, 13.95908],
+                      [-86.10645, 13.95892],
+                      [-86.10675, 13.95824],
+                      [-86.10706, 13.9577],
+                      [-86.10725, 13.95745],
+                      [-86.10954, 13.95474],
+                      [-86.10978, 13.95443],
+                      [-86.11075, 13.95279],
+                      [-86.11123, 13.95203],
+                      [-86.11171, 13.95102],
+                      [-86.11214, 13.95018],
+                      [-86.11288, 13.949],
+                      [-86.11367, 13.94779],
+                      [-86.11388, 13.94729],
+                      [-86.11482, 13.94438],
+                      [-86.11526, 13.94295],
+                      [-86.11552, 13.94218],
+                      [-86.11563, 13.94171],
+                      [-86.11619, 13.9389],
+                      [-86.11636, 13.93816],
+                      [-86.11726, 13.93573],
+                      [-86.11751, 13.93483],
+                      [-86.11758, 13.93464],
+                      [-86.11768, 13.93444],
+                      [-86.1179, 13.93409],
+                      [-86.11871, 13.93295],
+                      [-86.1196, 13.93165],
+                      [-86.11971, 13.93142],
+                      [-86.1199, 13.93078],
+                      [-86.11993, 13.9304],
+                      [-86.11995, 13.92933],
+                      [-86.11971, 13.9272],
+                      [-86.11966, 13.92656],
+                      [-86.11959, 13.92623],
+                      [-86.11951, 13.92598],
+                      [-86.11847, 13.92389],
+                      [-86.11836, 13.92364],
+                      [-86.11825, 13.92328],
+                      [-86.11821, 13.9231],
+                      [-86.11818, 13.92284],
+                      [-86.11817, 13.92251],
+                      [-86.1182, 13.9222],
+                      [-86.11836, 13.92159],
+                      [-86.1187, 13.92062],
+                      [-86.11901, 13.92006],
+                      [-86.12061, 13.91804],
+                      [-86.12299, 13.91508]
+                    ]
+                  ]
+                }
+              }, {
+                "type": "Feature",
+                "properties": {
+                  "route_ids": ["22"],
+                  "stop_id": "2201"
+                },
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [-86.1161, 13.9392]
+                }
+              }, {
+                "type": "Feature",
+                "properties": {
+                  "route_ids": ["22"],
+                  "stop_id": "2203"
+                },
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [-86.0402, 14.0667]
+                }
+              }, {
+                "type": "Feature",
+                "properties": {
+                  "route_ids": ["4", "6", "8", "9", "11", "16", "22", "23"],
+                  "stop_id": "4001"
+                },
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [-86.1234, 13.9153]
+                }
+              }]
+            }
+          }
+        },
+        "routeData": {
+          "4": {
+            "route_id": "4",
+            "agency_id": "1",
+            "route_short_name": "4",
+            "route_long_name": "Jalapa - Esteli",
+            "route_type": 3,
+            "route_color": "#0039A6"
+          },
+          "6": {
+            "route_id": "6",
+            "agency_id": "1",
+            "route_short_name": "6",
+            "route_long_name": "Ocotal-Jalapa Ordinario",
+            "route_type": 3,
+            "route_color": "#0039A6"
+          },
+          "8": {
+            "route_id": "8",
+            "agency_id": "1",
+            "route_short_name": "8E",
+            "route_long_name": "Jalapa-Managua Exp",
+            "route_type": 3,
+            "route_color": "#D108CA"
+          },
+          "9": {
+            "route_id": "9",
+            "agency_id": "1",
+            "route_short_name": "8O",
+            "route_long_name": "Jalapa-Managua Ordinario",
+            "route_type": 3,
+            "route_color": "#0039A6"
+          },
+          "11": {
+            "route_id": "11",
+            "agency_id": "1",
+            "route_short_name": "110",
+            "route_long_name": "Jalapa-Murra",
+            "route_type": 3,
+            "route_color": "#33FF99"
+          },
+          "16": {
+            "route_id": "16",
+            "agency_id": "1",
+            "route_short_name": "160",
+            "route_long_name": "Jalapa-San Pedro",
+            "route_type": 3,
+            "route_color": "#33FF99"
+          },
+          "22": {
+            "route_id": "22",
+            "agency_id": "1",
+            "route_short_name": "220",
+            "route_long_name": "Jalapa-El Porvenir",
+            "route_type": 3,
+            "route_color": "#33FF99"
+          },
+          "23": {
+            "route_id": "23",
+            "agency_id": "1",
+            "route_short_name": "230",
+            "route_long_name": "Jalapa-San Juan De Rio Coco",
+            "route_type": 3,
+            "route_color": "#33FF99"
+          }
+        },
+        "stopData": {
+          "2201": {
+            "stop_id": "2201",
+            "stop_code": "2201",
+            "stop_name": "La Limonera",
+            "stop_lat": 13.9392,
+            "stop_lon": -86.1161
+          },
+          "2203": {
+            "stop_id": "2203",
+            "stop_code": "2203",
+            "stop_name": "El Porvenir",
+            "stop_lat": 14.0667,
+            "stop_lon": -86.0402
+          },
+          "4001": {
+            "stop_id": "4001",
+            "stop_code": "4001",
+            "stop_name": "Jalapa",
+            "stop_lat": 13.9153,
+            "stop_lon": -86.1234
+          }
+        }
+      };
+      createMaps();
+    </script>
+  </div>
+</body>
+
+</html>

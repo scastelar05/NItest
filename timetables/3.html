@@ -1,0 +1,1590 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Ocotal-Somoto | Ministerio de Transporte e Infraestructura</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, width=device-width">
+  <script src="https://unpkg.com/jquery@3.7.1/dist/jquery.min.js" crossorigin="anonymous"></script>
+  <link href="https://unpkg.com/maplibre-gl@^4.7.1/dist/maplibre-gl.css" rel="stylesheet">
+  <script src="https://unpkg.com/maplibre-gl@^4.7.1/dist/maplibre-gl.js"></script>
+  <script src="../js/timetable-map.js"></script>
+  <link rel="stylesheet" href="../css/timetable_styles.css">
+</head>
+
+<body><!-- Timetable generated on 2024-11-17T17:31:55.854Z using GTFS-to-HTML version 2.10.3 -->
+  <div class="timetable-page menu-type-simple">
+    <h1>
+      <div class="route-color-swatch-large" style="background-color: #DE1439; color: #FFFFFF;">3</div>
+      <div>Ocotal-Somoto</div>
+    </h1>
+    <div class="effective-date">Effective Febrero 27, 2024</div>
+    <ul class="timetable-simple-menu">
+      <li><a href="#timetable_id_5"><span>Ocotal-Somoto</span></a></li>
+      <li><a href="#timetable_id_6"><span>Somoto-Ocotal</span></a></li>
+    </ul>
+    <div class="timetable" id="timetable_id_5" data-day-list="Lun-Vie" data-direction-name="Ocotal-Somoto" data-timetable-id="5" data-direction-id="0" data-route-id="3">
+      <div class="timetable-label">
+        <h2>Ocotal-Somoto | Lunes-Viernes</h2>
+      </div>
+      <div class="map-container">
+        <div class="map" id="map_timetable_id_5"></div>
+        <div class="map-legend">
+          <div class="legend-item">
+            <div class="legend-icon">
+              <div class="stop-marker"></div>
+            </div>
+            <div class="legend-text"> <b>Paradas</b></div>
+          </div>
+          <div class="legend-item vehicle-legend-item" style="display: none;">
+            <div class="legend-icon">
+              <div class="vehicle-marker">
+                <div class="vehicle-marker-arrow"></div>
+              </div>
+            </div>
+            <div class="legend-text"><b>Current Vehicle Locations</b><br />
+              <small>Hover or tap to see arrival times.</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="table-container">
+        <table class="table-vertical" summary="This table shows schedules for a selection of key stops on the route for Ocotal-Somoto Lun-Vie.  Stops and their schedule times are listed in the columns." data-orientation="vertical">
+          <caption class="sr-only">Ocotal-Somoto | Lun-Vie</caption>
+          <colgroup>
+            <col class="stop-0" id="stop_id_1001" data-stop-id="1001" data-is-timepoint="true">
+            <col class="stop-1" id="stop_id_3002" data-stop-id="3002" data-is-timepoint="true">
+            <col class="stop-2" id="stop_id_3003" data-stop-id="3003" data-is-timepoint="true">
+            <col class="stop-3" id="stop_id_3005" data-stop-id="3005" data-is-timepoint="true">
+          </colgroup>
+          <thead>
+            <tr>
+              <th class="stop-header" scope="col" width="25.00%">
+                <div class="stop-name">Terminal Ocotal</div>
+                <div class="stop-code">1001</div>
+              </th>
+              <th class="stop-header" scope="col" width="25.00%">
+                <div class="stop-name">Totogalpa Norte</div>
+                <div class="stop-code">3002</div>
+              </th>
+              <th class="stop-header" scope="col" width="25.00%">
+                <div class="stop-name">Empalme Yalaguina</div>
+                <div class="stop-code">3003</div>
+              </th>
+              <th class="stop-header" scope="col" width="25.00%">
+                <div class="stop-name">Somoto</div>
+                <div class="stop-code">3005</div>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="trip-row" id="trip_id_03_0675_00">
+              <td class="stop-time am timepoint"><span class="stop-time-text">05:45</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">06:00</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">06:15</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">06:30</span></td>
+            </tr>
+            <tr class="trip-row" id="trip_id_03_1112_00">
+              <td class="stop-time am timepoint"><span class="stop-time-text">06:30</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">06:45</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">07:00</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">07:15</span></td>
+            </tr>
+            <tr class="trip-row" id="trip_id_03_0542_00">
+              <td class="stop-time am timepoint"><span class="stop-time-text">07:20</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">07:35</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">07:50</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">08:05</span></td>
+            </tr>
+            <tr class="trip-row" id="trip_id_03_2297_00">
+              <td class="stop-time am timepoint"><span class="stop-time-text">08:30</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">08:45</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">09:00</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">09:15</span></td>
+            </tr>
+            <tr class="trip-row" id="trip_id_03_0675_02">
+              <td class="stop-time am timepoint"><span class="stop-time-text">09:05</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">09:20</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">09:35</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">09:50</span></td>
+            </tr>
+            <tr class="trip-row" id="trip_id_03_1112_02">
+              <td class="stop-time am timepoint"><span class="stop-time-text">09:45</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">10:00</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">10:15</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">10:30</span></td>
+            </tr>
+            <tr class="trip-row" id="trip_id_03_0542_02">
+              <td class="stop-time am timepoint"><span class="stop-time-text">10:30</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">10:45</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">11:00</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">11:15</span></td>
+            </tr>
+            <tr class="trip-row" id="trip_id_03_2297_02">
+              <td class="stop-time am timepoint"><span class="stop-time-text">11:15</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">11:30</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">11:45</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">12:00</span></td>
+            </tr>
+            <tr class="trip-row" id="trip_id_03_0675_04">
+              <td class="stop-time am timepoint"><span class="stop-time-text">11:45</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">12:00</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">12:15</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">12:30</span></td>
+            </tr>
+            <tr class="trip-row" id="trip_id_03_1112_04">
+              <td class="stop-time pm timepoint"><span class="stop-time-text">12:45</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">13:00</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">13:15</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">13:30</span></td>
+            </tr>
+            <tr class="trip-row" id="trip_id_03_0542_04">
+              <td class="stop-time pm timepoint"><span class="stop-time-text">13:30</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">13:45</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">14:00</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">14:15</span></td>
+            </tr>
+            <tr class="trip-row" id="trip_id_03_2297_04">
+              <td class="stop-time pm timepoint"><span class="stop-time-text">14:25</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">14:40</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">14:55</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">15:10</span></td>
+            </tr>
+            <tr class="trip-row" id="trip_id_03_0675_06">
+              <td class="stop-time pm timepoint"><span class="stop-time-text">15:25</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">15:40</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">15:55</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">16:10</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="timetable-footer"></div>
+    </div>
+    <div class="timetable" id="timetable_id_6" data-day-list="Lun-Vie" data-direction-name="Somoto-Ocotal" data-timetable-id="6" data-direction-id="1" data-route-id="3">
+      <div class="timetable-label">
+        <h2>Somoto-Ocotal | Lunes-Viernes</h2>
+      </div>
+      <div class="map-container">
+        <div class="map" id="map_timetable_id_6"></div>
+        <div class="map-legend">
+          <div class="legend-item">
+            <div class="legend-icon">
+              <div class="stop-marker"></div>
+            </div>
+            <div class="legend-text"> <b>Paradas</b></div>
+          </div>
+          <div class="legend-item vehicle-legend-item" style="display: none;">
+            <div class="legend-icon">
+              <div class="vehicle-marker">
+                <div class="vehicle-marker-arrow"></div>
+              </div>
+            </div>
+            <div class="legend-text"><b>Current Vehicle Locations</b><br />
+              <small>Hover or tap to see arrival times.</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="table-container">
+        <table class="table-vertical" summary="This table shows schedules for a selection of key stops on the route for Somoto-Ocotal Lun-Vie.  Stops and their schedule times are listed in the columns." data-orientation="vertical">
+          <caption class="sr-only">Somoto-Ocotal | Lun-Vie</caption>
+          <colgroup>
+            <col class="stop-0" id="stop_id_3005" data-stop-id="3005" data-is-timepoint="true">
+            <col class="stop-1" id="stop_id_3003" data-stop-id="3003" data-is-timepoint="true">
+            <col class="stop-2" id="stop_id_3013" data-stop-id="3013" data-is-timepoint="true">
+            <col class="stop-3" id="stop_id_1001" data-stop-id="1001" data-is-timepoint="true">
+          </colgroup>
+          <thead>
+            <tr>
+              <th class="stop-header" scope="col" width="25.00%">
+                <div class="stop-name">Somoto</div>
+                <div class="stop-code">3005</div>
+              </th>
+              <th class="stop-header" scope="col" width="25.00%">
+                <div class="stop-name">Empalme Yalaguina</div>
+                <div class="stop-code">3003</div>
+              </th>
+              <th class="stop-header" scope="col" width="25.00%">
+                <div class="stop-name">Totogalpa Sur</div>
+                <div class="stop-code">3013</div>
+              </th>
+              <th class="stop-header" scope="col" width="25.00%">
+                <div class="stop-name">Terminal Ocotal</div>
+                <div class="stop-code">1001</div>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="trip-row" id="trip_id_03_0542_01">
+              <td class="stop-time am timepoint"><span class="stop-time-text">05:45</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">06:00</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">06:15</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">06:30</span></td>
+            </tr>
+            <tr class="trip-row" id="trip_id_03_2297_01">
+              <td class="stop-time am timepoint"><span class="stop-time-text">06:30</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">06:45</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">07:00</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">07:15</span></td>
+            </tr>
+            <tr class="trip-row" id="trip_id_03_0675_01">
+              <td class="stop-time am timepoint"><span class="stop-time-text">07:45</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">08:00</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">08:15</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">08:30</span></td>
+            </tr>
+            <tr class="trip-row" id="trip_id_03_1112_01">
+              <td class="stop-time am timepoint"><span class="stop-time-text">08:15</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">08:30</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">08:45</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">09:00</span></td>
+            </tr>
+            <tr class="trip-row" id="trip_id_03_0542_03">
+              <td class="stop-time am timepoint"><span class="stop-time-text">09:15</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">09:30</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">09:45</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">10:00</span></td>
+            </tr>
+            <tr class="trip-row" id="trip_id_03_2297_03">
+              <td class="stop-time am timepoint"><span class="stop-time-text">10:00</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">10:15</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">10:30</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">10:45</span></td>
+            </tr>
+            <tr class="trip-row" id="trip_id_03_0675_03">
+              <td class="stop-time am timepoint"><span class="stop-time-text">10:30</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">10:45</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">11:00</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">11:15</span></td>
+            </tr>
+            <tr class="trip-row" id="trip_id_03_1112_03">
+              <td class="stop-time am timepoint"><span class="stop-time-text">11:05</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">11:20</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">11:35</span></td>
+              <td class="stop-time am timepoint"><span class="stop-time-text">11:50</span></td>
+            </tr>
+            <tr class="trip-row" id="trip_id_03_0542_05">
+              <td class="stop-time pm timepoint"><span class="stop-time-text">12:15</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">12:30</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">12:45</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">13:00</span></td>
+            </tr>
+            <tr class="trip-row" id="trip_id_03_2297_05">
+              <td class="stop-time pm timepoint"><span class="stop-time-text">13:00</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">13:15</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">13:30</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">13:45</span></td>
+            </tr>
+            <tr class="trip-row" id="trip_id_03_0675_05">
+              <td class="stop-time pm timepoint"><span class="stop-time-text">14:00</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">14:15</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">14:30</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">14:45</span></td>
+            </tr>
+            <tr class="trip-row" id="trip_id_03_1112_05">
+              <td class="stop-time pm timepoint"><span class="stop-time-text">15:00</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">15:15</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">15:30</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">15:45</span></td>
+            </tr>
+            <tr class="trip-row" id="trip_id_03_0675_07">
+              <td class="stop-time pm timepoint"><span class="stop-time-text">16:30</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">16:45</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">17:00</span></td>
+              <td class="stop-time pm timepoint"><span class="stop-time-text">17:15</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="timetable-footer"></div>
+    </div>
+    <script>
+      const {
+        gtfsRealtimeUrls,
+        mapStyleUrl,
+        routeData,
+        stopData,
+        pageData: {
+          routeIds,
+          tripIds,
+          stopIds,
+          geojsons
+        }
+      } = {
+        "gtfsRealtimeUrls": {},
+        "mapStyleUrl": "https://tiles.openfreemap.org/styles/liberty",
+        "pageData": {
+          "routeIds": ["3"],
+          "tripIds": ["03_0675_00", "03_1112_00", "03_0542_00", "03_2297_00", "03_0675_02", "03_1112_02", "03_0542_02", "03_2297_02", "03_0675_04", "03_1112_04", "03_0542_04", "03_2297_04", "03_0675_06", "03_0542_01", "03_2297_01", "03_0675_01", "03_1112_01", "03_0542_03", "03_2297_03", "03_0675_03", "03_1112_03", "03_0542_05", "03_2297_05", "03_0675_05", "03_1112_05", "03_0675_07"],
+          "stopIds": ["1001", "3002", "3003", "3005", "3013"],
+          "geojsons": {
+            "5": {
+              "type": "FeatureCollection",
+              "features": [{
+                "type": "Feature",
+                "properties": {
+                  "route_color": "#DE1439"
+                },
+                "geometry": {
+                  "type": "MultiLineString",
+                  "coordinates": [
+                    [
+                      [-86.4766, 13.6224],
+                      [-86.4764, 13.62239],
+                      [-86.4766, 13.6224],
+                      [-86.4766, 13.62253],
+                      [-86.47627, 13.62251],
+                      [-86.47625, 13.62212],
+                      [-86.47618, 13.62202],
+                      [-86.47608, 13.62197],
+                      [-86.47593, 13.6217],
+                      [-86.47588, 13.62167],
+                      [-86.47577, 13.62163],
+                      [-86.47523, 13.62187],
+                      [-86.4743, 13.62036],
+                      [-86.47401, 13.6198],
+                      [-86.47389, 13.61951],
+                      [-86.4737, 13.61898],
+                      [-86.47356, 13.61832],
+                      [-86.47351, 13.61753],
+                      [-86.47353, 13.61704],
+                      [-86.4738, 13.61525],
+                      [-86.47381, 13.61489],
+                      [-86.47378, 13.61464],
+                      [-86.47374, 13.61446],
+                      [-86.47362, 13.61416],
+                      [-86.47353, 13.614],
+                      [-86.47337, 13.61378],
+                      [-86.47325, 13.61366],
+                      [-86.47314, 13.61357],
+                      [-86.47295, 13.61345],
+                      [-86.47274, 13.61335],
+                      [-86.4723, 13.61322],
+                      [-86.47207, 13.61319],
+                      [-86.47119, 13.61317],
+                      [-86.47106, 13.61314],
+                      [-86.47091, 13.61308],
+                      [-86.47075, 13.61299],
+                      [-86.47051, 13.6128],
+                      [-86.47032, 13.61256],
+                      [-86.46987, 13.61162],
+                      [-86.46936, 13.60995],
+                      [-86.46933, 13.60966],
+                      [-86.46938, 13.60937],
+                      [-86.46943, 13.60922],
+                      [-86.46976, 13.6085],
+                      [-86.47017, 13.60723],
+                      [-86.47026, 13.60703],
+                      [-86.47041, 13.60679],
+                      [-86.47093, 13.60606],
+                      [-86.47124, 13.60549],
+                      [-86.47143, 13.60508],
+                      [-86.47159, 13.60467],
+                      [-86.47178, 13.604],
+                      [-86.47185, 13.60366],
+                      [-86.47209, 13.60177],
+                      [-86.47224, 13.60088],
+                      [-86.47233, 13.60056],
+                      [-86.47265, 13.59977],
+                      [-86.47269, 13.59955],
+                      [-86.47268, 13.59933],
+                      [-86.47257, 13.59908],
+                      [-86.47233, 13.59877],
+                      [-86.47166, 13.598],
+                      [-86.47161, 13.59792],
+                      [-86.47155, 13.59775],
+                      [-86.47153, 13.5976],
+                      [-86.47154, 13.59742],
+                      [-86.47161, 13.59726],
+                      [-86.47174, 13.5971],
+                      [-86.47219, 13.59679],
+                      [-86.4723, 13.59669],
+                      [-86.47249, 13.59637],
+                      [-86.47253, 13.59627],
+                      [-86.47259, 13.596],
+                      [-86.4726, 13.59567],
+                      [-86.47257, 13.59551],
+                      [-86.47252, 13.59537],
+                      [-86.47235, 13.59513],
+                      [-86.47221, 13.59498],
+                      [-86.472, 13.59479],
+                      [-86.47191, 13.59463],
+                      [-86.47191, 13.59431],
+                      [-86.47197, 13.59417],
+                      [-86.47237, 13.59371],
+                      [-86.47245, 13.5935],
+                      [-86.47245, 13.59338],
+                      [-86.47239, 13.59315],
+                      [-86.47214, 13.59273],
+                      [-86.47207, 13.59248],
+                      [-86.47201, 13.59191],
+                      [-86.47196, 13.59175],
+                      [-86.47166, 13.59118],
+                      [-86.47158, 13.59094],
+                      [-86.4716, 13.59068],
+                      [-86.47182, 13.59011],
+                      [-86.47185, 13.58988],
+                      [-86.47182, 13.5897],
+                      [-86.47179, 13.58963],
+                      [-86.47168, 13.58946],
+                      [-86.47139, 13.58911],
+                      [-86.47134, 13.58897],
+                      [-86.47135, 13.58873],
+                      [-86.47142, 13.58858],
+                      [-86.47158, 13.58843],
+                      [-86.47173, 13.58835],
+                      [-86.47189, 13.58833],
+                      [-86.47252, 13.58833],
+                      [-86.4729, 13.58826],
+                      [-86.47315, 13.58815],
+                      [-86.47331, 13.58804],
+                      [-86.47341, 13.58795],
+                      [-86.47357, 13.58776],
+                      [-86.4737, 13.58749],
+                      [-86.47383, 13.58682],
+                      [-86.47388, 13.58669],
+                      [-86.47403, 13.5865],
+                      [-86.47415, 13.5864],
+                      [-86.47428, 13.58633],
+                      [-86.47451, 13.58627],
+                      [-86.47504, 13.58623],
+                      [-86.47534, 13.58613],
+                      [-86.47585, 13.58589],
+                      [-86.47605, 13.58584],
+                      [-86.47692, 13.5857],
+                      [-86.4773, 13.58558],
+                      [-86.47756, 13.58542],
+                      [-86.47777, 13.58521],
+                      [-86.47795, 13.58494],
+                      [-86.47801, 13.5848],
+                      [-86.47815, 13.58437],
+                      [-86.47822, 13.58408],
+                      [-86.47828, 13.58346],
+                      [-86.47828, 13.58319],
+                      [-86.47823, 13.58271],
+                      [-86.47818, 13.58244],
+                      [-86.47805, 13.58199],
+                      [-86.47699, 13.57907],
+                      [-86.47663, 13.57818],
+                      [-86.47657, 13.57792],
+                      [-86.47657, 13.57772],
+                      [-86.47659, 13.57758],
+                      [-86.47663, 13.57745],
+                      [-86.47677, 13.57718],
+                      [-86.47687, 13.57706],
+                      [-86.47714, 13.57688],
+                      [-86.47738, 13.57678],
+                      [-86.47788, 13.57662],
+                      [-86.47807, 13.57653],
+                      [-86.48001, 13.5753],
+                      [-86.48137, 13.57427],
+                      [-86.48237, 13.57347],
+                      [-86.48283, 13.57302],
+                      [-86.48301, 13.57275],
+                      [-86.4831, 13.57255],
+                      [-86.48319, 13.5723],
+                      [-86.48335, 13.5716],
+                      [-86.48336, 13.57143],
+                      [-86.48335, 13.57056],
+                      [-86.48333, 13.57024],
+                      [-86.48328, 13.56996],
+                      [-86.48313, 13.56956],
+                      [-86.48311, 13.56946],
+                      [-86.48311, 13.56928],
+                      [-86.4832, 13.56892],
+                      [-86.48325, 13.56879],
+                      [-86.48334, 13.56863],
+                      [-86.48349, 13.56844],
+                      [-86.48384, 13.56809],
+                      [-86.48396, 13.56794],
+                      [-86.48418, 13.56761],
+                      [-86.48497, 13.56627],
+                      [-86.486, 13.5647],
+                      [-86.4863, 13.56436],
+                      [-86.48683, 13.56386],
+                      [-86.48707, 13.56367],
+                      [-86.49232, 13.56019],
+                      [-86.49254, 13.55993],
+                      [-86.49272, 13.55955],
+                      [-86.49277, 13.55923],
+                      [-86.49276, 13.55906],
+                      [-86.49272, 13.55888],
+                      [-86.49267, 13.55874],
+                      [-86.49252, 13.55846],
+                      [-86.49234, 13.55828],
+                      [-86.49143, 13.55763],
+                      [-86.49128, 13.55749],
+                      [-86.49118, 13.55734],
+                      [-86.49105, 13.557],
+                      [-86.49102, 13.55675],
+                      [-86.49103, 13.55651],
+                      [-86.49107, 13.5562],
+                      [-86.49107, 13.55601],
+                      [-86.49099, 13.55567],
+                      [-86.49089, 13.55549],
+                      [-86.49052, 13.55508],
+                      [-86.4891, 13.55365],
+                      [-86.48889, 13.55341],
+                      [-86.48861, 13.553],
+                      [-86.48854, 13.55285],
+                      [-86.48846, 13.55259],
+                      [-86.48831, 13.55139],
+                      [-86.48797, 13.55063],
+                      [-86.48793, 13.55048],
+                      [-86.4879, 13.55018],
+                      [-86.48788, 13.54956],
+                      [-86.48786, 13.54942],
+                      [-86.48778, 13.54919],
+                      [-86.48763, 13.54897],
+                      [-86.48754, 13.54889],
+                      [-86.48726, 13.5487],
+                      [-86.48697, 13.54846],
+                      [-86.48683, 13.54831],
+                      [-86.48671, 13.54814],
+                      [-86.48635, 13.54753],
+                      [-86.48629, 13.5474],
+                      [-86.48621, 13.54706],
+                      [-86.48623, 13.54671],
+                      [-86.48627, 13.54653],
+                      [-86.48637, 13.54627],
+                      [-86.48664, 13.54593],
+                      [-86.48679, 13.54571],
+                      [-86.48703, 13.54529],
+                      [-86.48708, 13.54517],
+                      [-86.48714, 13.54495],
+                      [-86.48716, 13.54473],
+                      [-86.48715, 13.54454],
+                      [-86.48701, 13.54391],
+                      [-86.487, 13.54379],
+                      [-86.48705, 13.54341],
+                      [-86.48709, 13.54329],
+                      [-86.48714, 13.5432],
+                      [-86.48735, 13.54292],
+                      [-86.48764, 13.54266],
+                      [-86.48777, 13.5425],
+                      [-86.48798, 13.54213],
+                      [-86.48803, 13.54195],
+                      [-86.48806, 13.54173],
+                      [-86.48811, 13.54083],
+                      [-86.48826, 13.53936],
+                      [-86.48832, 13.53913],
+                      [-86.48841, 13.5389],
+                      [-86.48854, 13.53871],
+                      [-86.48904, 13.53818],
+                      [-86.4893, 13.53784],
+                      [-86.4894, 13.53766],
+                      [-86.4895, 13.53742],
+                      [-86.48995, 13.53588],
+                      [-86.49045, 13.53437],
+                      [-86.49079, 13.53313],
+                      [-86.49118, 13.53188],
+                      [-86.49129, 13.53138],
+                      [-86.49136, 13.53092],
+                      [-86.49137, 13.53056],
+                      [-86.49135, 13.52978],
+                      [-86.49122, 13.52887],
+                      [-86.49088, 13.52734],
+                      [-86.4907, 13.52672],
+                      [-86.49001, 13.5239],
+                      [-86.48996, 13.5236],
+                      [-86.48991, 13.52309],
+                      [-86.48988, 13.52249],
+                      [-86.48991, 13.522],
+                      [-86.49003, 13.5212],
+                      [-86.49033, 13.5201],
+                      [-86.4907, 13.51919],
+                      [-86.49109, 13.51843],
+                      [-86.49138, 13.51799],
+                      [-86.4916, 13.51771],
+                      [-86.49228, 13.51696],
+                      [-86.49256, 13.5167],
+                      [-86.49308, 13.51628],
+                      [-86.49638, 13.51423],
+                      [-86.49666, 13.51403],
+                      [-86.49685, 13.51385],
+                      [-86.49701, 13.51362],
+                      [-86.49711, 13.51341],
+                      [-86.49719, 13.51288],
+                      [-86.49723, 13.51207],
+                      [-86.49737, 13.51112],
+                      [-86.49744, 13.51084],
+                      [-86.49752, 13.51061],
+                      [-86.49776, 13.50955],
+                      [-86.49784, 13.50931],
+                      [-86.49796, 13.50911],
+                      [-86.49808, 13.50896],
+                      [-86.49823, 13.50883],
+                      [-86.4984, 13.50872],
+                      [-86.49999, 13.50815],
+                      [-86.50015, 13.50805],
+                      [-86.50035, 13.50776],
+                      [-86.50038, 13.50762],
+                      [-86.50037, 13.50736],
+                      [-86.50034, 13.50725],
+                      [-86.50024, 13.50708],
+                      [-86.49976, 13.5066],
+                      [-86.49949, 13.50627],
+                      [-86.49926, 13.50591],
+                      [-86.49852, 13.50462],
+                      [-86.49838, 13.5043],
+                      [-86.49826, 13.50387],
+                      [-86.49828, 13.50361],
+                      [-86.49822, 13.50333],
+                      [-86.49818, 13.50321],
+                      [-86.49806, 13.50296],
+                      [-86.49772, 13.50244],
+                      [-86.49766, 13.50232],
+                      [-86.49758, 13.50207],
+                      [-86.49757, 13.50183],
+                      [-86.49758, 13.50174],
+                      [-86.49761, 13.50161],
+                      [-86.49773, 13.50129],
+                      [-86.49855, 13.49985],
+                      [-86.49867, 13.49952],
+                      [-86.49869, 13.49935],
+                      [-86.49869, 13.49917],
+                      [-86.49858, 13.49859],
+                      [-86.49857, 13.49838],
+                      [-86.49858, 13.49821],
+                      [-86.49868, 13.49759],
+                      [-86.49867, 13.49723],
+                      [-86.4984, 13.49646],
+                      [-86.49836, 13.49628],
+                      [-86.49837, 13.49606],
+                      [-86.49839, 13.49595],
+                      [-86.49843, 13.49585],
+                      [-86.4985, 13.49573],
+                      [-86.49864, 13.49557],
+                      [-86.49886, 13.49544],
+                      [-86.49898, 13.49541],
+                      [-86.49912, 13.49539],
+                      [-86.49931, 13.4954],
+                      [-86.49952, 13.49544],
+                      [-86.49999, 13.49557],
+                      [-86.50016, 13.4956],
+                      [-86.50031, 13.4956],
+                      [-86.50045, 13.49558],
+                      [-86.50135, 13.49526],
+                      [-86.5015, 13.49519],
+                      [-86.50175, 13.49503],
+                      [-86.50194, 13.49481],
+                      [-86.50203, 13.49461],
+                      [-86.50209, 13.49442],
+                      [-86.50222, 13.49368],
+                      [-86.50223, 13.49348],
+                      [-86.50222, 13.49325],
+                      [-86.50216, 13.49303],
+                      [-86.50206, 13.49277],
+                      [-86.50163, 13.49189],
+                      [-86.50158, 13.49174],
+                      [-86.50102, 13.48974],
+                      [-86.50101, 13.48964],
+                      [-86.50082, 13.48879],
+                      [-86.50024, 13.48879],
+                      [-86.49987, 13.48875],
+                      [-86.49939, 13.48866],
+                      [-86.49644, 13.48773],
+                      [-86.49618, 13.48762],
+                      [-86.49574, 13.48738],
+                      [-86.4954, 13.48714],
+                      [-86.49525, 13.48701],
+                      [-86.49507, 13.48679],
+                      [-86.49486, 13.48646],
+                      [-86.49324, 13.4835],
+                      [-86.4931, 13.48334],
+                      [-86.49281, 13.4831]
+                    ],
+                    [
+                      [-86.50108, 13.48878],
+                      [-86.50055, 13.4888],
+                      [-86.50108, 13.48878],
+                      [-86.50145, 13.48872],
+                      [-86.50279, 13.4884],
+                      [-86.50355, 13.48826],
+                      [-86.50441, 13.48821],
+                      [-86.50488, 13.48826],
+                      [-86.50517, 13.48832],
+                      [-86.50554, 13.48843],
+                      [-86.51596, 13.49275],
+                      [-86.5168, 13.49301],
+                      [-86.51708, 13.49308],
+                      [-86.51825, 13.49327],
+                      [-86.51971, 13.49332],
+                      [-86.52242, 13.49326],
+                      [-86.52361, 13.49315],
+                      [-86.524, 13.49308],
+                      [-86.5247, 13.4929],
+                      [-86.52529, 13.49272],
+                      [-86.5299, 13.49109],
+                      [-86.53018, 13.49102],
+                      [-86.5308, 13.49093],
+                      [-86.53104, 13.49092],
+                      [-86.53142, 13.49093],
+                      [-86.53176, 13.49097],
+                      [-86.53207, 13.49103],
+                      [-86.53277, 13.49126],
+                      [-86.53312, 13.49142],
+                      [-86.53442, 13.49221],
+                      [-86.53486, 13.49237],
+                      [-86.53565, 13.49257],
+                      [-86.53613, 13.49262],
+                      [-86.53718, 13.49264],
+                      [-86.53738, 13.49263],
+                      [-86.53802, 13.4927],
+                      [-86.53834, 13.49277],
+                      [-86.53857, 13.49284],
+                      [-86.53883, 13.49295],
+                      [-86.54038, 13.4937],
+                      [-86.54079, 13.49398],
+                      [-86.54112, 13.49425],
+                      [-86.54184, 13.49492],
+                      [-86.54202, 13.49505],
+                      [-86.54223, 13.49517],
+                      [-86.54252, 13.4953],
+                      [-86.54315, 13.49545],
+                      [-86.5456, 13.49564],
+                      [-86.54602, 13.49565],
+                      [-86.54777, 13.4956],
+                      [-86.54793, 13.49561],
+                      [-86.54816, 13.49565],
+                      [-86.54837, 13.49573],
+                      [-86.54857, 13.49584],
+                      [-86.54873, 13.49597],
+                      [-86.54895, 13.49625],
+                      [-86.55001, 13.49835],
+                      [-86.55028, 13.49879],
+                      [-86.551, 13.4998],
+                      [-86.55185, 13.50081],
+                      [-86.55217, 13.50116],
+                      [-86.55262, 13.50159],
+                      [-86.55278, 13.5017],
+                      [-86.55338, 13.50197],
+                      [-86.55495, 13.50248],
+                      [-86.55538, 13.50267],
+                      [-86.55614, 13.50307],
+                      [-86.55663, 13.50328],
+                      [-86.55732, 13.50351],
+                      [-86.55897, 13.50395],
+                      [-86.55927, 13.50406],
+                      [-86.55956, 13.50421],
+                      [-86.55991, 13.50446],
+                      [-86.56026, 13.50479],
+                      [-86.56042, 13.50498],
+                      [-86.56087, 13.50559],
+                      [-86.56105, 13.50576],
+                      [-86.56127, 13.50591],
+                      [-86.56152, 13.50603],
+                      [-86.56187, 13.50612],
+                      [-86.56205, 13.50613],
+                      [-86.56222, 13.50612],
+                      [-86.5625, 13.50606],
+                      [-86.5638, 13.50545],
+                      [-86.56428, 13.50526],
+                      [-86.56486, 13.50507],
+                      [-86.56803, 13.50425],
+                      [-86.56853, 13.50405],
+                      [-86.56888, 13.50386],
+                      [-86.5697, 13.50328],
+                      [-86.57074, 13.50237],
+                      [-86.57167, 13.50128],
+                      [-86.57195, 13.50089],
+                      [-86.57334, 13.4983],
+                      [-86.57385, 13.49726],
+                      [-86.57414, 13.49652],
+                      [-86.57439, 13.49565],
+                      [-86.57465, 13.49425],
+                      [-86.57475, 13.49386],
+                      [-86.57482, 13.49366],
+                      [-86.57506, 13.49312],
+                      [-86.57528, 13.49275],
+                      [-86.57549, 13.49246],
+                      [-86.57588, 13.49205],
+                      [-86.57617, 13.49179],
+                      [-86.57864, 13.4898],
+                      [-86.57906, 13.48949],
+                      [-86.57937, 13.4893],
+                      [-86.58155, 13.48822],
+                      [-86.5817, 13.48816],
+                      [-86.58243, 13.48773],
+                      [-86.58262, 13.48759],
+                      [-86.58287, 13.48735],
+                      [-86.58311, 13.48708],
+                      [-86.58341, 13.48666],
+                      [-86.5836, 13.48631],
+                      [-86.58415, 13.48494],
+                      [-86.5843, 13.48451],
+                      [-86.58459, 13.48382],
+                      [-86.585, 13.48302],
+                      [-86.58524, 13.48265],
+                      [-86.58568, 13.48207],
+                      [-86.58625, 13.48138],
+                      [-86.58615, 13.48133],
+                      [-86.58608, 13.48132],
+                      [-86.58504, 13.48137]
+                    ]
+                  ]
+                }
+              }, {
+                "type": "Feature",
+                "properties": {
+                  "route_ids": ["1", "2", "3", "4", "5", "6", "7", "9", "10", "12", "13", "14", "15", "17", "18", "19"],
+                  "stop_id": "1001"
+                },
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [-86.4764, 13.6224]
+                }
+              }, {
+                "type": "Feature",
+                "properties": {
+                  "route_ids": ["3", "4", "5"],
+                  "stop_id": "3002"
+                },
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [-86.4891, 13.5624]
+                }
+              }, {
+                "type": "Feature",
+                "properties": {
+                  "route_ids": ["3", "5"],
+                  "stop_id": "3003"
+                },
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [-86.4939, 13.4846]
+                }
+              }, {
+                "type": "Feature",
+                "properties": {
+                  "route_ids": ["3"],
+                  "stop_id": "3005"
+                },
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [-86.585, 13.4825]
+                }
+              }]
+            },
+            "6": {
+              "type": "FeatureCollection",
+              "features": [{
+                "type": "Feature",
+                "properties": {
+                  "route_color": "#DE1439"
+                },
+                "geometry": {
+                  "type": "MultiLineString",
+                  "coordinates": [
+                    [
+                      [-86.58504, 13.48137],
+                      [-86.58497, 13.48246],
+                      [-86.58504, 13.48137],
+                      [-86.58608, 13.48132],
+                      [-86.58615, 13.48133],
+                      [-86.58625, 13.48138],
+                      [-86.58568, 13.48207],
+                      [-86.58524, 13.48265],
+                      [-86.585, 13.48302],
+                      [-86.58459, 13.48382],
+                      [-86.5843, 13.48451],
+                      [-86.58415, 13.48494],
+                      [-86.5836, 13.48631],
+                      [-86.58341, 13.48666],
+                      [-86.58311, 13.48708],
+                      [-86.58287, 13.48735],
+                      [-86.58262, 13.48759],
+                      [-86.58243, 13.48773],
+                      [-86.5817, 13.48816],
+                      [-86.58155, 13.48822],
+                      [-86.57937, 13.4893],
+                      [-86.57906, 13.48949],
+                      [-86.57864, 13.4898],
+                      [-86.57617, 13.49179],
+                      [-86.57588, 13.49205],
+                      [-86.57549, 13.49246],
+                      [-86.57528, 13.49275],
+                      [-86.57506, 13.49312],
+                      [-86.57482, 13.49366],
+                      [-86.57475, 13.49386],
+                      [-86.57465, 13.49425],
+                      [-86.57439, 13.49565],
+                      [-86.57414, 13.49652],
+                      [-86.57385, 13.49726],
+                      [-86.57334, 13.4983],
+                      [-86.57195, 13.50089],
+                      [-86.57167, 13.50128],
+                      [-86.57074, 13.50237],
+                      [-86.5697, 13.50328],
+                      [-86.56888, 13.50386],
+                      [-86.56853, 13.50405],
+                      [-86.56803, 13.50425],
+                      [-86.56486, 13.50507],
+                      [-86.56428, 13.50526],
+                      [-86.5638, 13.50545],
+                      [-86.5625, 13.50606],
+                      [-86.56222, 13.50612],
+                      [-86.56205, 13.50613],
+                      [-86.56187, 13.50612],
+                      [-86.56152, 13.50603],
+                      [-86.56127, 13.50591],
+                      [-86.56105, 13.50576],
+                      [-86.56087, 13.50559],
+                      [-86.56042, 13.50498],
+                      [-86.56026, 13.50479],
+                      [-86.55991, 13.50446],
+                      [-86.55956, 13.50421],
+                      [-86.55927, 13.50406],
+                      [-86.55897, 13.50395],
+                      [-86.55732, 13.50351],
+                      [-86.55663, 13.50328],
+                      [-86.55614, 13.50307],
+                      [-86.55538, 13.50267],
+                      [-86.55495, 13.50248],
+                      [-86.55338, 13.50197],
+                      [-86.55278, 13.5017],
+                      [-86.55262, 13.50159],
+                      [-86.55217, 13.50116],
+                      [-86.55185, 13.50081],
+                      [-86.551, 13.4998],
+                      [-86.55028, 13.49879],
+                      [-86.55001, 13.49835],
+                      [-86.54895, 13.49625],
+                      [-86.54873, 13.49597],
+                      [-86.54857, 13.49584],
+                      [-86.54837, 13.49573],
+                      [-86.54816, 13.49565],
+                      [-86.54793, 13.49561],
+                      [-86.54777, 13.4956],
+                      [-86.54602, 13.49565],
+                      [-86.5456, 13.49564],
+                      [-86.54315, 13.49545],
+                      [-86.54252, 13.4953],
+                      [-86.54223, 13.49517],
+                      [-86.54202, 13.49505],
+                      [-86.54184, 13.49492],
+                      [-86.54112, 13.49425],
+                      [-86.54079, 13.49398],
+                      [-86.54038, 13.4937],
+                      [-86.53883, 13.49295],
+                      [-86.53857, 13.49284],
+                      [-86.53834, 13.49277],
+                      [-86.53802, 13.4927],
+                      [-86.53738, 13.49263],
+                      [-86.53718, 13.49264],
+                      [-86.53613, 13.49262],
+                      [-86.53565, 13.49257],
+                      [-86.53486, 13.49237],
+                      [-86.53442, 13.49221],
+                      [-86.53312, 13.49142],
+                      [-86.53277, 13.49126],
+                      [-86.53207, 13.49103],
+                      [-86.53176, 13.49097],
+                      [-86.53142, 13.49093],
+                      [-86.53104, 13.49092],
+                      [-86.5308, 13.49093],
+                      [-86.53018, 13.49102],
+                      [-86.5299, 13.49109],
+                      [-86.52529, 13.49272],
+                      [-86.5247, 13.4929],
+                      [-86.524, 13.49308],
+                      [-86.52361, 13.49315],
+                      [-86.52242, 13.49326],
+                      [-86.51971, 13.49332],
+                      [-86.51825, 13.49327],
+                      [-86.51708, 13.49308],
+                      [-86.5168, 13.49301],
+                      [-86.51596, 13.49275],
+                      [-86.50554, 13.48843],
+                      [-86.50517, 13.48832],
+                      [-86.50488, 13.48826],
+                      [-86.50441, 13.48821],
+                      [-86.50355, 13.48826],
+                      [-86.50279, 13.4884],
+                      [-86.50145, 13.48872],
+                      [-86.50108, 13.48878],
+                      [-86.50055, 13.4888],
+                      [-86.50024, 13.48879],
+                      [-86.49987, 13.48875],
+                      [-86.49939, 13.48866],
+                      [-86.49644, 13.48773],
+                      [-86.49618, 13.48762],
+                      [-86.49574, 13.48738],
+                      [-86.4954, 13.48714],
+                      [-86.49525, 13.48701],
+                      [-86.49507, 13.48679],
+                      [-86.49486, 13.48646],
+                      [-86.49324, 13.4835],
+                      [-86.4931, 13.48334],
+                      [-86.49281, 13.4831]
+                    ],
+                    [
+                      [-86.50082, 13.48879],
+                      [-86.50055, 13.4888],
+                      [-86.50082, 13.48879],
+                      [-86.50101, 13.48964],
+                      [-86.50102, 13.48974],
+                      [-86.50158, 13.49174],
+                      [-86.50163, 13.49189],
+                      [-86.50206, 13.49277],
+                      [-86.50216, 13.49303],
+                      [-86.50222, 13.49325],
+                      [-86.50223, 13.49348],
+                      [-86.50222, 13.49368],
+                      [-86.50209, 13.49442],
+                      [-86.50203, 13.49461],
+                      [-86.50194, 13.49481],
+                      [-86.50175, 13.49503],
+                      [-86.5015, 13.49519],
+                      [-86.50135, 13.49526],
+                      [-86.50045, 13.49558],
+                      [-86.50031, 13.4956],
+                      [-86.50016, 13.4956],
+                      [-86.49999, 13.49557],
+                      [-86.49952, 13.49544],
+                      [-86.49931, 13.4954],
+                      [-86.49912, 13.49539],
+                      [-86.49898, 13.49541],
+                      [-86.49886, 13.49544],
+                      [-86.49864, 13.49557],
+                      [-86.4985, 13.49573],
+                      [-86.49839, 13.49595],
+                      [-86.49836, 13.49628],
+                      [-86.4984, 13.49646],
+                      [-86.49867, 13.49723],
+                      [-86.49868, 13.49759],
+                      [-86.49858, 13.49821],
+                      [-86.49857, 13.49838],
+                      [-86.49858, 13.49859],
+                      [-86.49869, 13.49917],
+                      [-86.49869, 13.49935],
+                      [-86.49867, 13.49952],
+                      [-86.49855, 13.49985],
+                      [-86.49773, 13.50129],
+                      [-86.49761, 13.50161],
+                      [-86.49757, 13.50183],
+                      [-86.49758, 13.50207],
+                      [-86.49766, 13.50232],
+                      [-86.49772, 13.50244],
+                      [-86.49806, 13.50296],
+                      [-86.49818, 13.50321],
+                      [-86.49828, 13.50361],
+                      [-86.49826, 13.50387],
+                      [-86.49838, 13.5043],
+                      [-86.49852, 13.50462],
+                      [-86.49926, 13.50591],
+                      [-86.49949, 13.50627],
+                      [-86.49976, 13.5066],
+                      [-86.50024, 13.50708],
+                      [-86.50034, 13.50725],
+                      [-86.50037, 13.50736],
+                      [-86.50038, 13.50762],
+                      [-86.50035, 13.50776],
+                      [-86.50015, 13.50805],
+                      [-86.49999, 13.50815],
+                      [-86.4984, 13.50872],
+                      [-86.49823, 13.50883],
+                      [-86.49808, 13.50896],
+                      [-86.49796, 13.50911],
+                      [-86.49784, 13.50931],
+                      [-86.49776, 13.50955],
+                      [-86.49752, 13.51061],
+                      [-86.49744, 13.51084],
+                      [-86.49737, 13.51112],
+                      [-86.49723, 13.51207],
+                      [-86.49719, 13.51288],
+                      [-86.49711, 13.51341],
+                      [-86.49701, 13.51362],
+                      [-86.49685, 13.51385],
+                      [-86.49666, 13.51403],
+                      [-86.49638, 13.51423],
+                      [-86.49308, 13.51628],
+                      [-86.49256, 13.5167],
+                      [-86.49228, 13.51696],
+                      [-86.4916, 13.51771],
+                      [-86.49138, 13.51799],
+                      [-86.49109, 13.51843],
+                      [-86.4907, 13.51919],
+                      [-86.49033, 13.5201],
+                      [-86.49003, 13.5212],
+                      [-86.48991, 13.522],
+                      [-86.48988, 13.52249],
+                      [-86.48991, 13.52309],
+                      [-86.48996, 13.5236],
+                      [-86.49001, 13.5239],
+                      [-86.4907, 13.52672],
+                      [-86.49088, 13.52734],
+                      [-86.49122, 13.52887],
+                      [-86.49135, 13.52978],
+                      [-86.49137, 13.53056],
+                      [-86.49136, 13.53092],
+                      [-86.49129, 13.53138],
+                      [-86.49118, 13.53188],
+                      [-86.49079, 13.53313],
+                      [-86.49045, 13.53437],
+                      [-86.48995, 13.53588],
+                      [-86.4895, 13.53742],
+                      [-86.4894, 13.53766],
+                      [-86.4893, 13.53784],
+                      [-86.48904, 13.53818],
+                      [-86.48854, 13.53871],
+                      [-86.48841, 13.5389],
+                      [-86.48832, 13.53913],
+                      [-86.48826, 13.53936],
+                      [-86.48811, 13.54083],
+                      [-86.48806, 13.54173],
+                      [-86.48803, 13.54195],
+                      [-86.48798, 13.54213],
+                      [-86.48777, 13.5425],
+                      [-86.48764, 13.54266],
+                      [-86.48735, 13.54292],
+                      [-86.48714, 13.5432],
+                      [-86.48709, 13.54329],
+                      [-86.48705, 13.54341],
+                      [-86.487, 13.54379],
+                      [-86.48701, 13.54391],
+                      [-86.48715, 13.54454],
+                      [-86.48716, 13.54473],
+                      [-86.48714, 13.54495],
+                      [-86.48708, 13.54517],
+                      [-86.48703, 13.54529],
+                      [-86.48679, 13.54571],
+                      [-86.48664, 13.54593],
+                      [-86.48637, 13.54627],
+                      [-86.48627, 13.54653],
+                      [-86.48623, 13.54671],
+                      [-86.48621, 13.54706],
+                      [-86.48629, 13.5474],
+                      [-86.48635, 13.54753],
+                      [-86.48671, 13.54814],
+                      [-86.48683, 13.54831],
+                      [-86.48697, 13.54846],
+                      [-86.48726, 13.5487],
+                      [-86.48754, 13.54889],
+                      [-86.48763, 13.54897],
+                      [-86.48778, 13.54919],
+                      [-86.48786, 13.54942],
+                      [-86.48788, 13.54956],
+                      [-86.4879, 13.55018],
+                      [-86.48793, 13.55048],
+                      [-86.48797, 13.55063],
+                      [-86.48831, 13.55139],
+                      [-86.48846, 13.55259],
+                      [-86.48854, 13.55285],
+                      [-86.48861, 13.553],
+                      [-86.48889, 13.55341],
+                      [-86.4891, 13.55365],
+                      [-86.49052, 13.55508],
+                      [-86.49089, 13.55549],
+                      [-86.49099, 13.55567],
+                      [-86.49107, 13.55601],
+                      [-86.49107, 13.5562],
+                      [-86.49103, 13.55651],
+                      [-86.49102, 13.55675],
+                      [-86.49105, 13.557],
+                      [-86.49118, 13.55734],
+                      [-86.49128, 13.55749],
+                      [-86.49143, 13.55763],
+                      [-86.49234, 13.55828],
+                      [-86.49252, 13.55846],
+                      [-86.49267, 13.55874],
+                      [-86.49272, 13.55888],
+                      [-86.49276, 13.55906],
+                      [-86.49277, 13.55923],
+                      [-86.49272, 13.55955],
+                      [-86.49254, 13.55993],
+                      [-86.49232, 13.56019],
+                      [-86.48707, 13.56367],
+                      [-86.48683, 13.56386],
+                      [-86.4863, 13.56436],
+                      [-86.486, 13.5647],
+                      [-86.48497, 13.56627],
+                      [-86.48418, 13.56761],
+                      [-86.48396, 13.56794],
+                      [-86.48384, 13.56809],
+                      [-86.48349, 13.56844],
+                      [-86.48334, 13.56863],
+                      [-86.48325, 13.56879],
+                      [-86.4832, 13.56892],
+                      [-86.48311, 13.56928],
+                      [-86.48311, 13.56946],
+                      [-86.48313, 13.56956],
+                      [-86.48328, 13.56996],
+                      [-86.48333, 13.57024],
+                      [-86.48335, 13.57056],
+                      [-86.48336, 13.57143],
+                      [-86.48335, 13.5716],
+                      [-86.48319, 13.5723],
+                      [-86.4831, 13.57255],
+                      [-86.48301, 13.57275],
+                      [-86.48283, 13.57302],
+                      [-86.48237, 13.57347],
+                      [-86.48137, 13.57427],
+                      [-86.48001, 13.5753],
+                      [-86.47807, 13.57653],
+                      [-86.47788, 13.57662],
+                      [-86.47738, 13.57678],
+                      [-86.47714, 13.57688],
+                      [-86.47687, 13.57706],
+                      [-86.47677, 13.57718],
+                      [-86.47663, 13.57745],
+                      [-86.47659, 13.57758],
+                      [-86.47657, 13.57772],
+                      [-86.47657, 13.57792],
+                      [-86.47663, 13.57818],
+                      [-86.47699, 13.57907],
+                      [-86.47805, 13.58199],
+                      [-86.47818, 13.58244],
+                      [-86.47823, 13.58271],
+                      [-86.47828, 13.58319],
+                      [-86.47828, 13.58346],
+                      [-86.47822, 13.58408],
+                      [-86.47815, 13.58437],
+                      [-86.47801, 13.5848],
+                      [-86.47795, 13.58494],
+                      [-86.47777, 13.58521],
+                      [-86.47756, 13.58542],
+                      [-86.4773, 13.58558],
+                      [-86.47692, 13.5857],
+                      [-86.47605, 13.58584],
+                      [-86.47585, 13.58589],
+                      [-86.47534, 13.58613],
+                      [-86.47504, 13.58623],
+                      [-86.47451, 13.58627],
+                      [-86.47428, 13.58633],
+                      [-86.47415, 13.5864],
+                      [-86.47403, 13.5865],
+                      [-86.47388, 13.58669],
+                      [-86.47383, 13.58682],
+                      [-86.4737, 13.58749],
+                      [-86.47357, 13.58776],
+                      [-86.47341, 13.58795],
+                      [-86.47331, 13.58804],
+                      [-86.47315, 13.58815],
+                      [-86.4729, 13.58826],
+                      [-86.47252, 13.58833],
+                      [-86.47189, 13.58833],
+                      [-86.47173, 13.58835],
+                      [-86.47158, 13.58843],
+                      [-86.47142, 13.58858],
+                      [-86.47135, 13.58873],
+                      [-86.47134, 13.58897],
+                      [-86.47139, 13.58911],
+                      [-86.47168, 13.58946],
+                      [-86.47179, 13.58963],
+                      [-86.47182, 13.5897],
+                      [-86.47185, 13.58988],
+                      [-86.47182, 13.59011],
+                      [-86.4716, 13.59068],
+                      [-86.47158, 13.59094],
+                      [-86.47166, 13.59118],
+                      [-86.47196, 13.59175],
+                      [-86.47201, 13.59191],
+                      [-86.47207, 13.59248],
+                      [-86.47214, 13.59273],
+                      [-86.47239, 13.59315],
+                      [-86.47245, 13.59338],
+                      [-86.47245, 13.5935],
+                      [-86.47237, 13.59371],
+                      [-86.47197, 13.59417],
+                      [-86.47191, 13.59431],
+                      [-86.47191, 13.59463],
+                      [-86.472, 13.59479],
+                      [-86.47221, 13.59498],
+                      [-86.47235, 13.59513],
+                      [-86.47252, 13.59537],
+                      [-86.47257, 13.59551],
+                      [-86.4726, 13.59567],
+                      [-86.47259, 13.596],
+                      [-86.47253, 13.59627],
+                      [-86.47249, 13.59637],
+                      [-86.4723, 13.59669],
+                      [-86.47219, 13.59679],
+                      [-86.47174, 13.5971],
+                      [-86.47161, 13.59726],
+                      [-86.47154, 13.59742],
+                      [-86.47153, 13.5976],
+                      [-86.47155, 13.59775],
+                      [-86.47161, 13.59792],
+                      [-86.47166, 13.598],
+                      [-86.47233, 13.59877],
+                      [-86.47257, 13.59908],
+                      [-86.47268, 13.59933],
+                      [-86.47269, 13.59955],
+                      [-86.47265, 13.59977],
+                      [-86.47233, 13.60056],
+                      [-86.47224, 13.60088],
+                      [-86.47209, 13.60177],
+                      [-86.47185, 13.60366],
+                      [-86.47178, 13.604],
+                      [-86.47159, 13.60467],
+                      [-86.47143, 13.60508],
+                      [-86.47124, 13.60549],
+                      [-86.47093, 13.60606],
+                      [-86.47041, 13.60679],
+                      [-86.47026, 13.60703],
+                      [-86.47017, 13.60723],
+                      [-86.46976, 13.6085],
+                      [-86.46943, 13.60922],
+                      [-86.46938, 13.60937],
+                      [-86.46933, 13.60966],
+                      [-86.46936, 13.60995],
+                      [-86.46987, 13.61162],
+                      [-86.47032, 13.61256],
+                      [-86.47051, 13.6128],
+                      [-86.47075, 13.61299],
+                      [-86.47091, 13.61308],
+                      [-86.47106, 13.61314],
+                      [-86.47119, 13.61317],
+                      [-86.47207, 13.61319],
+                      [-86.4723, 13.61322],
+                      [-86.47274, 13.61335],
+                      [-86.47295, 13.61345],
+                      [-86.47314, 13.61357],
+                      [-86.47325, 13.61366],
+                      [-86.47337, 13.61378],
+                      [-86.47353, 13.614],
+                      [-86.47362, 13.61416],
+                      [-86.47374, 13.61446],
+                      [-86.47378, 13.61464],
+                      [-86.47381, 13.61489],
+                      [-86.4738, 13.61525],
+                      [-86.47353, 13.61704],
+                      [-86.47351, 13.61753],
+                      [-86.47356, 13.61832],
+                      [-86.4737, 13.61898],
+                      [-86.47389, 13.61951],
+                      [-86.47401, 13.6198],
+                      [-86.4743, 13.62036],
+                      [-86.47523, 13.62187],
+                      [-86.47577, 13.62163],
+                      [-86.47588, 13.62167],
+                      [-86.47593, 13.6217],
+                      [-86.47608, 13.62197],
+                      [-86.47618, 13.62202],
+                      [-86.47625, 13.62212],
+                      [-86.47627, 13.62251],
+                      [-86.4766, 13.62253],
+                      [-86.4766, 13.6224]
+                    ]
+                  ]
+                }
+              }, {
+                "type": "Feature",
+                "properties": {
+                  "route_ids": ["1", "2", "3", "4", "5", "6", "7", "9", "10", "12", "13", "14", "15", "17", "18", "19"],
+                  "stop_id": "1001"
+                },
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [-86.4764, 13.6224]
+                }
+              }, {
+                "type": "Feature",
+                "properties": {
+                  "route_ids": ["3", "5"],
+                  "stop_id": "3003"
+                },
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [-86.4939, 13.4846]
+                }
+              }, {
+                "type": "Feature",
+                "properties": {
+                  "route_ids": ["3"],
+                  "stop_id": "3005"
+                },
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [-86.585, 13.4825]
+                }
+              }, {
+                "type": "Feature",
+                "properties": {
+                  "route_ids": ["3", "4", "5"],
+                  "stop_id": "3013"
+                },
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [-86.4916, 13.5606]
+                }
+              }]
+            }
+          }
+        },
+        "routeData": {
+          "1": {
+            "route_id": "1",
+            "agency_id": "1",
+            "route_short_name": "1",
+            "route_long_name": "Ocotal - Wiwili N.S",
+            "route_type": 3,
+            "route_color": "#0039A6"
+          },
+          "2": {
+            "route_id": "2",
+            "agency_id": "1",
+            "route_short_name": "2",
+            "route_long_name": "Ocotal-Quilali Ordinario",
+            "route_type": 3,
+            "route_color": "#0039A6"
+          },
+          "3": {
+            "route_id": "3",
+            "agency_id": "1",
+            "route_short_name": "3",
+            "route_long_name": "Ocotal-Somoto Ordinario",
+            "route_type": 3,
+            "route_color": "#DE1439"
+          },
+          "4": {
+            "route_id": "4",
+            "agency_id": "1",
+            "route_short_name": "4",
+            "route_long_name": "Jalapa - Esteli",
+            "route_type": 3,
+            "route_color": "#0039A6"
+          },
+          "5": {
+            "route_id": "5",
+            "agency_id": "1",
+            "route_short_name": "5",
+            "route_long_name": "Ocotal-Esteli Ordinario",
+            "route_type": 3,
+            "route_color": "#DE1439"
+          },
+          "6": {
+            "route_id": "6",
+            "agency_id": "1",
+            "route_short_name": "6",
+            "route_long_name": "Ocotal-Jalapa Ordinario",
+            "route_type": 3,
+            "route_color": "#0039A6"
+          },
+          "7": {
+            "route_id": "7",
+            "agency_id": "1",
+            "route_short_name": "7E",
+            "route_long_name": "Ocotal-Managua Exp",
+            "route_type": 3,
+            "route_color": "#DE1439"
+          },
+          "9": {
+            "route_id": "9",
+            "agency_id": "1",
+            "route_short_name": "8O",
+            "route_long_name": "Jalapa-Managua Ordinario",
+            "route_type": 3,
+            "route_color": "#0039A6"
+          },
+          "10": {
+            "route_id": "10",
+            "agency_id": "1",
+            "route_short_name": "10",
+            "route_long_name": "Ocotal - Las Manos Ordinario",
+            "route_type": 3,
+            "route_color": "#DE1439"
+          },
+          "12": {
+            "route_id": "12",
+            "agency_id": "1",
+            "route_short_name": "12",
+            "route_long_name": "Ocotal-Jicaro Ordinario",
+            "route_type": 3,
+            "route_color": "#0039A6"
+          },
+          "13": {
+            "route_id": "13",
+            "agency_id": "1",
+            "route_short_name": "13",
+            "route_long_name": "Ocotal-Ciudad Antigua",
+            "route_type": 3,
+            "route_color": "#0039A6"
+          },
+          "14": {
+            "route_id": "14",
+            "agency_id": "1",
+            "route_short_name": "14",
+            "route_long_name": "Ocotal-Macuelizo Ordinario",
+            "route_type": 3,
+            "route_color": "#DE1439"
+          },
+          "15": {
+            "route_id": "15",
+            "agency_id": "1",
+            "route_short_name": "15",
+            "route_long_name": "Ocotal-Murra",
+            "route_type": 3,
+            "route_color": "#0039A6"
+          },
+          "17": {
+            "route_id": "17",
+            "agency_id": "1",
+            "route_short_name": "17",
+            "route_long_name": "Ocotal-Santa Maria Ordinario",
+            "route_type": 3,
+            "route_color": "#DE1439"
+          },
+          "18": {
+            "route_id": "18",
+            "agency_id": "1",
+            "route_short_name": "18",
+            "route_long_name": "Ocotal-Suyatal Ordinario",
+            "route_type": 3,
+            "route_color": "#DE1439"
+          },
+          "19": {
+            "route_id": "19",
+            "agency_id": "1",
+            "route_short_name": "19",
+            "route_long_name": "Ocotal-El Rosario Via Murra",
+            "route_type": 3,
+            "route_color": "#0039A6"
+          }
+        },
+        "stopData": {
+          "1001": {
+            "stop_id": "1001",
+            "stop_code": "1001",
+            "stop_name": "Terminal Ocotal",
+            "stop_lat": 13.6224,
+            "stop_lon": -86.4764
+          },
+          "3002": {
+            "stop_id": "3002",
+            "stop_code": "3002",
+            "stop_name": "Totogalpa Norte",
+            "stop_lat": 13.5624,
+            "stop_lon": -86.4891
+          },
+          "3003": {
+            "stop_id": "3003",
+            "stop_code": "3003",
+            "stop_name": "Empalme Yalaguina",
+            "stop_lat": 13.4846,
+            "stop_lon": -86.4939
+          },
+          "3005": {
+            "stop_id": "3005",
+            "stop_code": "3005",
+            "stop_name": "Somoto",
+            "stop_lat": 13.4825,
+            "stop_lon": -86.585
+          },
+          "3013": {
+            "stop_id": "3013",
+            "stop_code": "3013",
+            "stop_name": "Totogalpa Sur",
+            "stop_lat": 13.5606,
+            "stop_lon": -86.4916
+          }
+        }
+      };
+      createMaps();
+    </script>
+  </div>
+</body>
+
+</html>

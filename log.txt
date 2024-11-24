@@ -1,0 +1,10 @@
+Feed Version: 0.1
+GTFS-to-HTML Version: 2.10.3
+Date Generated: 2024-11-17T17:31:57.859Z
+Timetable Page Count: 23
+Timetable Count: 46
+Calendar Service ID Count: 25
+Route Count: 23
+Trip Count: 237
+Stop Count: 363
+Source: gtfs.zip
